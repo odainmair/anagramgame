@@ -1,2 +1,2 @@
-# anagramgame
-![grab-landing-page](https://github.com/winnie1312/grab/blob/master/grab-landingpage-winnie.gif)
+# Anagram Game
+![grab-landing-page](https://github.com/odainmair/anagramgame/blob/master/Angram.gif)
