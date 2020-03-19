@@ -17,7 +17,7 @@ adb push angram1.txt /sdcard/angram1.txt
 
 Features Used in the Game:
 1. ViewModel & LiveData
-2. Read File from File Manager
+2. Read Text File from File Manager
 3. Push Notification 
 4. RecycleView with multi type view holder
 5. Send Email
