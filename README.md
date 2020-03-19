@@ -12,6 +12,10 @@
   7. the game would send a push notification for each found Anagram and the total number of them
   8. After the game finishes the comparison between both files, the game would enable the user to share the found ones via an email with their friends.
 
+Features Used in the Game:
+1. 
+2.
+3.
   
 <img src="https://github.com/odainmair/anagramgame/blob/master/Angram.gif" width="320" height="640">
 </p>
