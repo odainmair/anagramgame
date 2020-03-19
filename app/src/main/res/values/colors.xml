@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2775F4</color>
+    <color name="colorPrimaryDark">#1f5dc3</color>
+    <color name="colorAccent">#2775F4</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#808080</color>
+    <color name="appBlueColor">#2775F4</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorDarkGray2">#5D5D5D</color>
+    <color name="colorGray">#ADADAD</color>
+    <color name="colorYellow">#FFCA2F</color>
+    <color name="colorOrange">#FF9E00</color>
+    <color name="colorGray1">#979797</color>
+    <color name="colorGray2">#B2B2B2</color>
+    <color name="colorGray3">#A59C94</color>
+    <color name="colorGray4">#BDBDBD</color>
+    <color name="colorGray5">#888888</color>
+    <color name="colorGray6">#CCCCCC</color>
+    <color name="colorGray7">#F5F5F5</color>
+    <color name="colorGray8">#F6F6F6</color>
+    <color name="colorGray9">#727F96</color>
+    <color name="colorDashboardHeaderGrey">#8492A6</color>
+    <color name="colorWhiteOpa60">#99ffffff</color>
+    <color name="colorBlackOpa60">#99000000</color>
+    <color name="colorDarkPink">#E5007C</color>
+    <color name="colorHint">#8897A7</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackTrans">#AA000000</color>
+    <color name="colorBoulder">#7A7777</color>
+    <color name="colorAlto">#DADADA</color>
+    <color name="colorDustyGray">#979797</color>
+    <color name="colorNevada">#666B6E</color>
+    <color name="colorGrayOpa25">#40D6D6D6</color>
+    <color name="colorLightGray2">#E4E4E4</color>
+    <color name="colorLightGray3">#D1D1D1</color>
+    <color name="colorPureRed">#FF0000</color>
+    <color name="colorAlternateBackground">#F3F3F3</color>
+    <color name="colorDivider">#DADADA</color>
+    <color name="dividerColor">#EEEEEE</color>
+    <color name="analytics_yellow">#F2C500</color>
+    <color name="appBackground">#F9FAFC</color>
+    <color name="cardHeaderBackground">#E5E9F2</color>
+    <color name="colorMobilyTextHeader">#303D46</color>
+    <color name="colorToolbar">#303D46</color>
+    <color name="appBlackColor">#1F2D3D</color>
+
+    <color name="appGrayColor">#6A6A6A</color>
+    <color name="appDarkGrayColor">#52575D</color>
+    <color name="tabColor">#0072DB</color>
+    <color name="tabColorOpa60">#990072DB</color>
+
+    <color name="indicator_selected">#0097DB</color>
+    <color name="indicator_unselected">#590097DB</color>
+
+    <color name="colorBlue1">#1F86FF</color>
+    <color name="colorBlue2">#231FFF</color>
+    <color name="colorBlue3">#1F6BFF</color>
+    <color name="colorBlue4">#1FB6FF</color>
+    <color name="colorBlue5">#1F43FF</color>
+    <color name="colorLoaderTransparent">#4D2E383B</color>
+    <color name="colorBackgroundPayment">#E9E9E9</color>
+
+    <color name="unlimited_grey">#8491A6</color>
+    <color name="text_color">#545454</color>
+    <color name="divider_color">#4D00B8F0</color>
+    <color name="colorGrayAirlineBg">#E8E6E6</color>
+    <color name="cyan">#0AF6EA</color>
+    <color name="delete_red">#F62D38</color>
+</resources>

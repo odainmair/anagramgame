@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Activity.MainActivity">
+
+    <TextView
+        android:id="@+id/headerTxt"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:background="?android:attr/colorMultiSelectHighlight"
+        android:fadingEdge="horizontal|vertical"
+        android:gravity="center"
+        android:layerType="software"
+        android:text="ANAGRAM GAME"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addFileBtn"
+
+        style="@style/Button_secondary"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:drawableLeft="@android:drawable/ic_menu_upload"
+        android:padding="7dp"
+        android:text="Add Files"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerTxt" />
+
+    <Button
+        android:id="@+id/shareBtn"
+
+        style="@style/Button_secondary"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:drawableLeft="@android:drawable/ic_menu_share"
+        android:padding="7dp"
+        android:text="Share"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startGameBtn" />
+
+    <TextView
+        android:id="@+id/anagramFoundTxtView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Total Anagram Count (0)"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/addFileBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startGameBtn" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/angramListRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shareBtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/anagramFileTxtView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Anagram Files (0)"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/addFileBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerTxt" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fileListRecyclerView"
+        android:layout_width="409dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addFileBtn" />
+
+    <Button
+        android:id="@+id/startGameBtn"
+        style="@style/Button_primary"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+
+        android:text="Start Game"
+
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fileListRecyclerView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

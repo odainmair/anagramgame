@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:layout_margin="1dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgCall"
+        android:layout_width="26dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="8dp"
+        android:src="@android:drawable/ic_menu_save"
+        android:tint="@color/appBlueColor"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+    <LinearLayout
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/fileNameTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text="Robert"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numberOfWordsTextView"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text="Manhattan" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/deteteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="8dp"
+
+        android:src="@android:drawable/ic_delete"
+        android:tint="@color/delete_red"
+        app:srcCompat="@android:drawable/ic_delete" />
+</LinearLayout>

@@ -1,0 +1,170 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="dim_standard_x1">6dp</dimen>
+
+    <dimen name="dim_standard_x2">12dp</dimen>
+    <dimen name="dim_standard_x3">18dp</dimen>
+    <dimen name="dim_standard_x4">24dp</dimen>
+    <dimen name="dim_standard_x5">30dp</dimen>
+    <dimen name="dim_standard_x6">36dp</dimen>
+    <dimen name="dim_standard_x7">42dp</dimen>
+    <dimen name="dim_standard_x8">48dp</dimen>
+    <dimen name="dim_standard_x10">60dp</dimen>
+    <dimen name="dim_standard_x12">70dp</dimen>
+    <dimen name="dim_standard_x14">86dp</dimen>
+    <dimen name="dim_standard_x15">100dp</dimen>
+    <dimen name="dim_standard_x40">240dp</dimen>
+    <dimen name="dim_negative">0dp</dimen>
+
+    <dimen name="dim_button">53dp</dimen>
+    <dimen name="dim_margin_button_x2">2dp</dimen>
+    <dimen name="dim_margin_button_x4">4dp</dimen>
+    <dimen name="dim_margin_button_x5">5dp</dimen>
+    <dimen name="dim_margin_button_x8">8dp</dimen>
+    <dimen name="dim_margin_button_x20">20dp</dimen>
+    <dimen name="dim_margin_button_x24">24dp</dimen>
+    <dimen name="dim_margin_button_x28">28dp</dimen>
+    <dimen name="dim_margin_button_x30">30dp</dimen>
+    <dimen name="dim_margin_button_x16">16dp</dimen>
+    <dimen name="dim_margin_button_x18">18dp</dimen>
+    <dimen name="dim_margin_button_x10">10dp</dimen>
+    <dimen name="dim_margin_button_x12">12dp</dimen>
+
+    <dimen name="products_banner_height">140dp</dimen>
+
+    <dimen name="circular_widget_grey_margin">2dp</dimen>
+
+    <dimen name="homepage_category_size">17sp</dimen>
+    <dimen name="homepage_benefit_value">30sp</dimen>
+    <dimen name="homepage_subcategory_size">12sp</dimen>
+    <dimen name="usage_benefits_and_usage_size">16sp</dimen>
+    <dimen name="usage_benefits_and_usage_size_subcategory">12sp</dimen>
+    <dimen name="banner_title">20sp</dimen>
+    <dimen name="banner_subtitle">14sp</dimen>
+
+
+    <dimen name="products_options_label_size">22sp</dimen>
+
+    <dimen name="analytics_button">14sp</dimen>
+    <dimen name="padding_top">150dp</dimen>
+    <dimen name="refresh_button_dimen">25dp</dimen>
+    <dimen name="products_image_margin">40dp</dimen>
+    <dimen name="top_bar_height">50dp</dimen>
+
+    <dimen name="circular_text_size">10sp</dimen>
+    <dimen name="circular_text_size_no_balance">10sp</dimen>
+    <dimen name="circular_text_size_small">8sp</dimen>
+
+    <dimen name="unbilled_summury_title">18sp</dimen>
+    <dimen name="unbilled_summury_values">46sp</dimen>
+    <dimen name="unbilled_summury_sar">14sp</dimen>
+
+    <dimen name="unbilled_details_lv_cost">24sp</dimen>
+    <dimen name="unbilled_details_lv_duration">11sp</dimen>
+    <dimen name="unbilled_details_lv_phoneno">24sp</dimen>
+    <dimen name="unbilled_details_lv_time">11sp</dimen>
+
+    <!---->
+    <dimen name="consumed_lbl_txt_size">12sp</dimen>
+    <dimen name="consumed_val_txt_size">20sp</dimen>
+    <dimen name="outof_lbl_txt_size">12sp</dimen>
+    <dimen name="outof_val_txt_size">20sp</dimen>
+
+
+    <dimen name="tglbtn_txt">16sp</dimen>
+
+    <dimen name="common_btn_large">32sp</dimen>
+    <dimen name="amount_btn_txt_size">18sp</dimen>
+    <dimen name="voucher_btns_txt_size">16sp</dimen>
+
+    <dimen name="common_et">18sp</dimen>
+
+    <dimen name="pay_option_img_w_size">90dp</dimen>
+    <dimen name="pay_option_img_h_size">70dp</dimen>
+    <dimen name="cc_amount_view_padding">20dip</dimen>
+
+    <dimen name="cc_amount_txt_size">20sp</dimen>
+    <dimen name="tabs_view_size">90dip</dimen>
+    <dimen name="vat_txt_size">16sp</dimen>
+    <dimen name="common_edittxt_size">18sp</dimen>
+    <dimen name="pls_wait_3d_sec">18sp</dimen>
+    <dimen name="small_text_size">15sp</dimen>
+    <dimen name="mediam_text_size">18sp</dimen>
+
+    <dimen name="mediam_text_size_2x">24sp</dimen>
+
+    <dimen name="new_ui_buttom_nav_height">50dp</dimen>
+
+    <dimen name="postpaid_amt_txt">30sp</dimen>
+
+    <dimen name="ui_menu_item_text_size">18sp</dimen>
+
+    <!--Dimens for User Profile-->
+    <dimen name="primary_btn_text_size">15sp</dimen>
+    <dimen name="primary_btn_height">35dp</dimen>
+    <dimen name="profile_list_max_height">200dp</dimen>
+
+    <!-- Dimensions -->
+    <dimen name="_1dp">1dp</dimen>
+    <dimen name="_2dp">2dp</dimen>
+    <dimen name="_4dp">4dp</dimen>
+    <dimen name="_6dp">6dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_12dp">12dp</dimen>
+    <dimen name="_14dp">14dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_18dp">18dp</dimen>
+    <dimen name="_20dp">20dp</dimen>
+    <dimen name="_22dp">22dp</dimen>
+    <dimen name="_24dp">24dp</dimen>
+    <dimen name="_26dp">26dp</dimen>
+    <dimen name="_28dp">28dp</dimen>
+    <dimen name="_30dp">30dp</dimen>
+    <dimen name="_32dp">32dp</dimen>
+    <dimen name="_40dp">40dp</dimen>
+    <dimen name="_50dp">50dp</dimen>
+    <dimen name="_400dp">400dp</dimen>
+
+    <!--Dimens for Account Management-->
+    <dimen name="sim_pin_number_width">40dp</dimen>
+    <dimen name="sim_puk_number_width">80dp</dimen>
+
+    <!-- Text Size-->
+    <dimen name="_10sp">10sp</dimen>
+    <dimen name="_12sp">12sp</dimen>
+    <dimen name="_14sp">14sp</dimen>
+    <dimen name="_16sp">16sp</dimen>
+    <dimen name="_18sp">18sp</dimen>
+    <dimen name="_20sp">20sp</dimen>
+    <dimen name="_22sp">22sp</dimen>
+    <dimen name="_24sp">24sp</dimen>
+    <dimen name="_26sp">26sp</dimen>
+    <dimen name="_28sp">28sp</dimen>
+    <dimen name="_30sp">30sp</dimen>
+    <dimen name="_32sp">32sp</dimen>
+    <dimen name="_37sp">37sp</dimen>
+    <dimen name="_50sp">50sp</dimen>
+
+    <dimen name="edit_text_height">44dp</dimen>
+    <dimen name="input_edit_text_height">34dp</dimen>
+    <dimen name="general_margin">21dp</dimen>
+
+    <dimen name="_14_5dp">14.5dp</dimen>
+
+    <!--App widget dimensions-->
+    <dimen name="circular_view_width">80dp</dimen>
+    <dimen name="widget_gallary_height">100dp</dimen>
+    <dimen name="widget_gallary_item_height">80dp</dimen>
+    <dimen name="circular_widget_dimen">100dp</dimen>
+    <dimen name="cardview_height">80dip</dimen>
+
+    <dimen name="credit_card_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+</resources>
